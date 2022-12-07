@@ -33,7 +33,7 @@ html, body{
 
 /* navbar */
 nav{
-    position: fixed;
+    
     top: 0;
     left: 0;
     right: 0;
@@ -71,3 +71,188 @@ nav{
     border-radius: 0%;
     border-bottom: 1px solid var(--main_red);
 }
+
+/* main header */
+
+.main_header{
+    position: relative;
+    background-image: url(../img/mainheader.png);
+    background-size: cover;
+    height: 850px;
+    overflow: hidden;
+}
+
+.text_mainH{
+    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text_mainH h1{
+    color:var(--light) ;
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.quiSomosButton{
+    margin-top: 37.44px;
+    margin-bottom: 37.44px;
+}
+
+.quienesSomos a{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px;
+    border: 3px solid var(--main_red);
+    border-radius: 30px;
+    
+}
+
+.quienesSomos a:hover{
+    transition: 0.4s;
+    padding: 15px;
+}
+
+.meetTT{
+    height: 300px;
+    background-image: url(../img/bannerCono.png);
+    background-size: cover;
+
+}
+
+/* normas */
+
+.servicios{
+    margin-top: 37.44px;
+    margin-bottom: 37.44px;
+}
+
+.normas1{
+    position: relative;
+}
+
+#difNormas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.normas1 h2{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+/*
+.normas1Text{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    background-color: #fff;
+    width: 600px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.normas1Text::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: 15px solid;
+    border-color: #000 #0000 #0000 #0000;
+}
+.normas1:hover p{   
+    top: -300px;    
+    visibility: visible;
+    opacity: 1;
+}
+
+.redDiv{
+    background-color: var(--main_red);
+    height: 5px;
+}*/
+
+.trustUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--main_red);
+    margin-top: 37.44px;
+    margin-bottom: 37.44px;
+}
+
+.trustUs h1{
+    margin-bottom: 37.44px;
+}
+
+
+.customer_logos{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    padding: 2.5rem;
+    
+}
+
+.slide{
+    animation: animate 25s alternate linear infinite;
+    padding: 0px 20px 0 20px;
+}
+
+.customer_logos:hover .slide{
+    animation-play-state: paused;
+}
+
+@keyframes animate{
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    100%{
+        transform: translate3d(-1100px,0,0);
+    }
+}
+
+.endTY{
+    margin-top: 37.44px;
+    height: 800px;
+    background-image: url(../img/visitTy.png);
+    background-size: cover;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.text_end{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--light);
+}
+
+.contact-logos{
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+}
+
+.textLogo{
+    color: var(--light);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.endTY img{
+    width: 100px;
+    height: 100px;
+}
+
