@@ -18,6 +18,7 @@ html, body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* container */
@@ -33,7 +34,7 @@ html, body{
 
 /* navbar */
 nav{
-    
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -117,6 +118,12 @@ nav{
     transition: 0.4s;
     padding: 15px;
 }
+
+
+.sepQuiSom{
+    height: 60px;
+}
+
 
 .meetTT{
     height: 300px;
