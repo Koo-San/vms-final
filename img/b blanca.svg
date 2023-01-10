@@ -3,12 +3,21 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#C30A18;}
-	.st1{fill:#FFFFFF;}
+	.st0{clip-path:url(#SVGID_00000132774121120535756480000003132644004541807525_);}
+	.st1{fill:#C30A18;}
+	.st2{fill:#FFFFFF;}
 </style>
 <g>
-	<rect x="237.81" y="326.49" class="st0" width="524.38" height="524.38"/>
-	<polygon class="st1" points="361.71,456.01 421.53,456.01 500,648.78 677.44,149.14 762.19,149.14 527.88,723.55 471.38,723.55 	
-		"/>
+	<defs>
+		<rect id="SVGID_1_" x="28" y="28" width="944" height="944"/>
+	</defs>
+	<clipPath id="SVGID_00000091001046961869400860000017026892789275222431_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_00000091001046961869400860000017026892789275222431_);">
+		<rect x="27.66" y="28.88" class="st1" width="942.88" height="942.88"/>
+		<polygon class="st2" points="250.43,261.78 358,261.78 499.1,608.38 818.15,-290.02 970.54,-290.02 549.23,742.84 447.64,742.84 
+					"/>
+	</g>
 </g>
 </svg>
