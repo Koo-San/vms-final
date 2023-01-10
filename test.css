@@ -1,0 +1,34 @@
+.logo-container {
+    overflow: hidden; /* This is needed to hide the logos that are outside of the container */
+    width: 100%; /* This makes the container take up the full width of its parent element */
+    height: 200px; /* This sets the height of the container */
+  }
+  
+  .logo-list {
+    list-style: none; /* This removes the bullets from the list */
+    padding: 0; /* This removes the default padding from the list */
+    margin: 0; /* This removes the default margin from the list */
+    width: 10000px; /* This makes the list wider than the container, so that it can scroll */
+    animation: logo-scroll 20s linear infinite; /* This adds the animation to the list */
+  }
+  
+  /* This defines the keyframes for the animation */
+  @keyframes logo-scroll {
+    0% {
+      transform: translateX(0); /* This sets the starting position of the list */
+    }
+    100% {
+      transform: translateX(-2500px); /* This sets the final position of the list (move 2500px to the left) */
+    }
+  }
+  
+  .logo-list li {
+    display: inline-block; /* This makes the list items display in a row */
+    padding-right: 20px; /* This adds space between the logos */
+  }
+  
+  .logo-list img {
+    max-width: 100px; /* This sets the maximum width of the images */
+    height: auto; /* This makes sure the aspect ratio of the images is preserved */
+  }
+  
